@@ -3,4 +3,4 @@ if exists('g:loaded_terraform_doc')
 endif
 
 let g:loaded_terraform_doc = 1
-command! OpenTerraformResourcePage call terraform_doc_open#open_resource_page()
+command! OpenTerraformResourcePage call terraform_doc_open#OpenResourcePage()
